@@ -1,0 +1,219 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container
+{
+    height: 82%;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.section1{
+    display: flex;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+justify-content: center;
+}
+.logo
+{
+    height: 100%;
+    width: 25%;
+}
+.logo>img
+{
+    height: 100%;
+    width: 100%;
+}
+.deliver
+{
+    height: 100%;
+    width: 40%;
+    display: flex;
+   
+}
+.deliver>.icon
+{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliver>.icon>i
+{
+height: 6px;
+width: 2px;
+}
+.deliver-content
+{
+        height: 100%;
+        font-size: small;
+        width: 70%;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        flex-direction: column;
+     justify-content: center;
+}
+.section2
+{ 
+        height: 85%;
+        width: 55%;
+        margin-left: 15px;     
+}
+.searchbox
+{
+    height: 90%;
+    width: 100%;
+    
+}
+.section2>.searchbox>input
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    
+}
+.section3
+{
+    background-color:aqua;
+    width:22% ;
+    height: 65%;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Signin
+{
+    width: 25% ;
+    height: 100%;
+    align-items: center;
+}
+.Signin>button
+{
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgoldenrod;
+}
+.orders
+{
+    width:35% ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: black;
+
+}
+.cart
+{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+    box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+}
+.cart>i
+{
+    height: 55%;
+color: black;
+ }
+.subheader
+{
+    height: 8%;
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+ .subheader>div>i
+ {
+ height: 15px;
+ width: 20px;
+ }
+
+.subheader>div
+{
+  margin-left: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+  
+}
+.hovereffect
+{
+border: 1px solid black;
+transition: 1ms;
+}
+.hoverout
+{
+    border:none;
+    transition: 1ms;
+}
+.card{
+    margin: 8px;
+    height: 45%;
+    width: 15%;
+    border-style:groove;
+    border-color: 1px solid gray;
+    background-color:none;
+    cursor: pointer;
+    transform-box: view-box;
+}
+.image-card{
+    height: 55%;
+    width: 100%;
+    background-color:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-card>img
+{
+    
+    height: 95%;
+    width:95%;
+}
+.card-content{
+    height: 45%;
+    width: 100%;
+    background-color:none;
+    padding: 2px;
+    display: flex;
+
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
